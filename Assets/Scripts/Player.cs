@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public BoxCollider2D boxCollider;
+    public CircleCollider2D circleCollider;
     public Vector3 moveDelta;
     public Animator animator;
     public RaycastHit2D hit;
 
     private void Start()
     {
-        boxCollider = GetComponent<BoxCollider2D>();
+        circleCollider = GetComponent<CircleCollider2D>();
     }
 
 
